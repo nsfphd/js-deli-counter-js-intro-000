@@ -22,7 +22,7 @@ function currentLine(katzDeliLine){
   else{
     var newArr= new Array()
     for (var i = 0; i<katzDeliLine.length; i++){
-      if (i===katzDeline.length-1){
+      if (i===katzDeliLine.length-1){
         str=`${i+1}. ${katzDeliLine[i]}`
     }
     else {
