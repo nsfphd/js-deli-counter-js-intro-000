@@ -23,6 +23,6 @@ function currentLine(katzDeliLine){
     for (var i = 0; i<katzDeliLine.length; i++){
       str=`${i+1}. ${katzDeliLine[i]}`
     }
-
-
+  }
 }
+
