@@ -21,7 +21,7 @@ function currentLine(katzDeliLine){
   }
   else{
     var newArr= new Array()
-    var str
+    var str = ""
     for (var i = 0; i<katzDeliLine.length; i++){
       if (i===katzDeliLine.length-1){
         str=`${i+1}. ${katzDeliLine[i]}`
